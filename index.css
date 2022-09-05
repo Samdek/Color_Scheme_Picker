@@ -1,0 +1,61 @@
+#title {
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-size: 40px;
+    color: #000079;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    border: 1px solid #9d9dff;
+    height: 33em;
+    border-radius: 10px;
+}
+
+#form {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: .7em;
+    align-items: center;
+}
+
+#color-id, #color-mode, button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#color-id {
+    height: 3em;
+}
+
+#color-mode {
+    height: 1.5em;
+    width: 50%;
+}
+
+button {
+    background-color: #0000ff;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
+#colors-container {
+    display: flex;
+    justify-content: center;
+}
+
+.color {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 95px;
+    margin: 1px;
+    height: 27rem;
+    font-size: 18px;
+    color: white;
+}
